@@ -10,11 +10,12 @@ export default function Home() {
         <p>
           Get started by iframe
         </p>
-        <button onClick={() => setIframeOpened(!iframeOpened)}>
+        <button
+          className={styles.button}
+          onClick={() => setIframeOpened(!iframeOpened)}
+        >
           {iframeOpened ? "Close" : "Open"} iframe
         </button>
-        <br/>
-        <br/>
 
         {iframeOpened &&
           <iframe name = "authFrame" width = "100%" height = "650px" src = "https://shared.zelus.io" ></iframe>
