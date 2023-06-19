@@ -14,6 +14,7 @@ export default function Home() {
           {iframeOpened ? "Close" : "Open"} iframe
         </button>
         <br/>
+        <br/>
 
         {iframeOpened &&
           <iframe name = "authFrame" width = "100%" height = "650px" src = "https://shared.zelus.io" ></iframe>
