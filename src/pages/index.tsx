@@ -88,7 +88,7 @@ export default function Home() {
             inPageLinks
             onMessage={onMessage}
             src="https://oauth-front.vercel.app?embedded=true"
-            style={{ width: "1px", minWidth: "100%", height: "310px", borderRadius: "10px" }}
+            style={{ width: "732px", maxWidth: "100%", height: "310px", borderRadius: "10px" }}
           />
         }
       </div>
